@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 900;
+  font-size: 200%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+.metal-mania {
+  font-family: "Metal Mania";
+  font-size: 64px;
+}
+header {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+main {
+  height: 100%;
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  width: 100%;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+#section-list {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+#section-summary {
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.cart-car-details {
+  
+}
